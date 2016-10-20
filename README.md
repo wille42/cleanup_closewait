@@ -3,6 +3,11 @@
 The script will close all in the half-close state of the client socket connection,
 only support UNIX/LINUX.
 
-command: cleanup_closewait -s --server ipaddr:port [-c --client ipaddr:port]
-                           --all
-                           -h --help
+__command:__ 
+
+```
+-- close all
+python cleanup_closewait.py --all
+
+python cleanup_closewait.py -s 192.168.0.1:50010
+```
